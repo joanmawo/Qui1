@@ -1,7 +1,7 @@
 import numpy as np
 
 frecuencias = [20]
-rango = arange(20)+1
+rango = np.arange(20)+1
 
 filein = codecs.open("frecuencias"+sys.argv[1], "r", "utf8")
         
